@@ -59,8 +59,10 @@ header{
 .box-container-2{
     background-color: bisque;
     padding: 20px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
+    align-content: stretch;
 }
 
 
