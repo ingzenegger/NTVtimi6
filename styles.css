@@ -1,0 +1,67 @@
+/*Header CSS*/
+.header-div{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+.header-div-2{
+    background-color: burlywood;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.header-div-2 p {
+    margin: 0px;
+}
+    
+header{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+}
+/* hér er hægt að gera allaskonar athugasemdir í css*/
+
+.p-2{
+    align-self: flex-start;
+    width: 50%;
+}
+
+/*main CSS*/
+/* Fyrstu boxin */
+.box-container{
+    background-color: #bff7f7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* justify content virkar bara þegar stuffið er í línu frekar en column */
+
+}
+.box{
+    display: flex;
+    padding: 20px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 10px;
+   
+}
+.box1{
+    background-color: yellow;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+/* Seinni boxin */
+.box-container-2{
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* ctrl + k +c gerir svona komment */
